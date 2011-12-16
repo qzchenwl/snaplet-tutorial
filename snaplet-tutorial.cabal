@@ -19,11 +19,15 @@ Executable snaplet-tutorial
     bytestring >= 0.9.1 && < 0.10,
     MonadCatchIO-transformers >= 0.2.1 && < 0.3,
     mtl >= 2 && < 3,
-    snap        == 0.6.*,
-    snap-core   == 0.6.*,
-    snap-server == 0.6.*,
-    text        == 0.11.*,
-    heist       == 0.6.*
+    containers   == 0.4.0.0,
+    snap         == 0.6.*,
+    snap-core    == 0.6.*,
+    snap-server  == 0.6.*,
+    snaplet-hdbc == 0.6.*,
+    HDBC         == 2.3.1.0,
+    HDBC-sqlite3 == 2.3.3.0,
+    text         == 0.11.*,
+    heist        == 0.6.*
 
   if impl(ghc >= 6.12.0)
     ghc-options: -threaded -Wall -fwarn-tabs -funbox-strict-fields -O2

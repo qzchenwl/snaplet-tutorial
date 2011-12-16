@@ -9,7 +9,9 @@
         	<li>
         		<a href="/session">list session</a>	
         	</li>
+            <li>
+            	<a href="/getmsg">query database</a>
+            </li>
         </ul>
-
     </body>
 </html>
